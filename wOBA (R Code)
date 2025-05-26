@@ -1,0 +1,33 @@
+# Approximate MLB wOBA weights (2021–2023 ballparks):
+wBB  <- 0.69
+wHBP <- 0.72
+w1B  <- 0.89
+w2B  <- 1.27
+w3B  <- 1.62
+wHR  <- 2.10
+
+UT_wOBA_PrePlayoffs <- UT_RawData_PrePlayoffs_UT_RawData_PrePlayoffs_Table_ %>%
+  # compute wOBA
+  mutate(
+    wOBA = (
+      wBB  * BB         +
+        wHBP * HBP      +
+        w1B  * `1B`     +
+        w2B  * `2B`     +
+        w3B  * `3B`     +
+        wHR  * HR
+    ) / (AB + BB + HBP + SF)
+  ) %>%
+  mutate(
+    OBP = ( 
+      (H + BB + HBP) / (AB + BB + HBP + SF)
+      )
+  )%>%
+  mutate(
+    SLG =(
+      (`1B` + 2*`2B` + 3*`3B` + 4*`HR`) /
+    )
+  )
+
+# inspect
+print(UT_wOBA_PrePlayoffs)
