@@ -1,1 +1,3 @@
-# Optimized-UT-Austin-Baseball-Lineup-Pre-College-Playoffs-
+# Optimized-UT-Austin-Baseball-Lineup-Pre-College-Playoffs
+
+If you have been keeping up with the University of Texas at Austin’s Baseball team it is no secret that the team has had some tough losses in the month of May. This team has endured adversity the entire 2025 season. From being ranked outside the top 15 team in preseason by every major publication, to being unanimously ranked 1st, to now losing two of the last three series’ they have played. The team can not afford to let the losses get to them, and spiral down this late into the season. After all, playoff baseball has always favored the “hottest” teams. Look at teams such as the 2023 Texas Rangers and famously the 2019 Washington Nationals for proof. So I decided to create a lineup based on the “hottest” hitters on the UT team.
